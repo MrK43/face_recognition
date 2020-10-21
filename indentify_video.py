@@ -7,7 +7,7 @@ video_capture = cv2.VideoCapture("./video/test1.mp4")
 
 # สร้างการเรียนรู้ใบหน้าโดยการดึงรูปภาพของใบหน้ามาจดจำ encoding
 # สามารถสร้างได้ไม่จำกัด
-person1_image = face_recognition.load_image_file("./img/known/tim.png")
+person1_image = face_recognition.load_image_file("./img/known/Tim Cook.png")
 person1_face_encoding = face_recognition.face_encodings(person1_image)[0]
 
 person2_image = face_recognition.load_image_file("./img/known/Steve Jobs.jpg")
